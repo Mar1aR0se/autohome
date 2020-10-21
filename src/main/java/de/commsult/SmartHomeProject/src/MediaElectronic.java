@@ -1,22 +1,13 @@
 package de.commsult.SmartHomeProject.src;
 
 public class MediaElectronic {
-	private int channel;
-	private double volume;
-	
-	public int getChannel() {
-		return channel;
-	}
-	
-	public void setChannel(int channel) {
-		this.channel = channel;
-	}
+	private int volume;
 
-	public double getVolume() {
+	public int getVolume() {
 		return volume;
 	}
 
-	public void setVolume(double volume) {
+	public void setVolume(int volume) {
 		this.volume = volume;
 	}
 	

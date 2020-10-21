@@ -1,31 +1,31 @@
 package de.commsult.SmartHomeProject.src;
 
 public class Sensors {
-	private boolean brightness;
-	private boolean weight;
-	private int temperature;
+	private boolean lightSensor;//true = light sensor detects light
+	private double weightSensor;
+	private double temperatureSensor;
 	
-	public boolean getBrightness() {
-		return brightness;
+	public boolean getLightSensor() {
+		return lightSensor;
 	}
 	
-	public void setBrightness(boolean brightness) {
-		this.brightness = brightness;
+	public void setLightSensor(boolean lightSensor) {
+		this.lightSensor = lightSensor;
 	}
-	
-	public boolean getWeight() {
-		return weight;
+
+	public double getWeightSensor() {
+		return weightSensor;
 	}
-	
-	public void setWeight(boolean weight) {
-		this.weight = weight;
+
+	public void setWeightSensor(double weightSensor) {
+		this.weightSensor = weightSensor;
 	}
-	
-	public int getTemperature() {
-		return temperature;
+
+	public double getTemperatureSensor() {
+		return temperatureSensor;
 	}
-	
-	public void setTemperature(int temperature) {
-		this.temperature = temperature;
+
+	public void setTemperatureSensor(double temperatureSensor) {
+		this.temperatureSensor = temperatureSensor;
 	}
 }

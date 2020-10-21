@@ -3,6 +3,7 @@ package de.commsult.SmartHomeProject.src;
 public class TvControl extends MediaElectronic {
 	private int onDemandChannel;
 	private int normalChannel;
+	private boolean tvPower;
 	
 	public int getOnDemandChannel() {
 		return onDemandChannel;
@@ -18,5 +19,13 @@ public class TvControl extends MediaElectronic {
 
 	public void setNormalChannel(int normalChannel) {
 		this.normalChannel = normalChannel;
+	}
+
+	public boolean getTvPower() {
+		return tvPower;
+	}
+
+	public void setTvPower(boolean tvPower) {
+		this.tvPower = tvPower;
 	}
 }
